@@ -1,0 +1,60 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing : border-box;
+}
+body {
+    font-family: sans-serif;
+}  
+.box{
+    height: 90vh;
+    border: 10px solid black;
+    width: 900px;
+    margin-left: 260px;
+    margin-top: 20px;
+}
+.heading{
+    padding: 2vh 0;
+    text-align: center;
+    align-items: center;
+    background-color: rebeccapurple;
+    color: white;
+    margin-bottom: 20px;
+    width: 33rem;
+    margin-left: 180px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 5px solid black;
+    text-shadow: 2px 2px 4px red;
+}
+.Draw-Board-Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.draw-board{
+    height: 416px;
+    width: 416px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.child{
+    height: 52px;
+    width: 52px;
+    border: 1px solid black;
+}
+.tools {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    padding: 2vh 0;
+}
+  
+.tools button {
+    padding: 8px 16px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
